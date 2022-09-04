@@ -11,6 +11,6 @@ import javax.persistence.Entity;
 @Getter @Setter
 public class Food extends Item {
 
-    private String FoodName;
+    private String DeliveryRangeLimit;
     private String FoodCode;
 }

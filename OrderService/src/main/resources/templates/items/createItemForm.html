@@ -20,9 +20,9 @@
             <input type="number" th:field="*{stockQuantity}" class="form-control" placeholder="수량을 입력하세요">
         </div>
         <div class="form-group">
-            <label th:for="author">음식 이름</label>
-            <input type="text" th:field="*{FoodName}" class="form-control"
-                   placeholder="음식이름을 입력하세요">
+            <label th:for="author">배달 가능 거리</label>
+            <input type="text" th:field="*{DeliveryRangeLimit}" class="form-control"
+                   placeholder="배달가능한 거리를 입력하세요(숫자, 거리단위 혼용 가능)">
         </div>
         <div class="form-group">
             <label th:for="isbn">음식코드</label>

@@ -12,6 +12,6 @@ public class FoodForm {
     private int price;
     private int stockQuantity;
 
-    private String FoodName;
+    private String DeliveryRangeLimit;
     private String FoodCode;
 }

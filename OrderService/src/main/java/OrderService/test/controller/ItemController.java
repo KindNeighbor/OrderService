@@ -31,7 +31,7 @@ public class ItemController {
         food.setName(form.getName());
         food.setPrice(form.getPrice());
         food.setStockQuantity(form.getStockQuantity());
-        food.setFoodName(form.getFoodName());
+        food.setDeliveryRangeLimit(form.getDeliveryRangeLimit());
         food.setFoodCode(form.getFoodCode());
 
         itemService.saveItem(food);
@@ -54,7 +54,7 @@ public class ItemController {
         form.setName(item.getName());
         form.setPrice(item.getPrice());
         form.setStockQuantity(item.getStockQuantity());
-        form.setFoodName(item.getFoodName());
+        form.setDeliveryRangeLimit(item.getDeliveryRangeLimit());
         form.setFoodCode(item.getFoodCode());
 
         model.addAttribute("form", form);
